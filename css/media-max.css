@@ -1,0 +1,176 @@
+
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 1200px) {
+    .section-one h1{
+        line-height: 3rem;
+    }
+    
+    .theme-heading{
+        font-size: 2.3rem;
+    }
+    .section-five .why-choose-us-content .row div.why-choose-us-card h2.text-heading{
+        font-size: 1.1rem;
+    }
+    .section-three .services-content .row div.services-card{
+        height: 290px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .custom-container{
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .agile-header .nav-link{
+        padding: 0.5rem 0.8rem;
+    }
+    .section-one h1{
+        line-height: 3rem;
+    }
+    .theme-heading{
+        font-size: 2.1rem;
+    }
+    .section-five .why-choose-us-content .row div.why-choose-us-card{
+        height: auto;
+        min-height: 130px;
+    }
+    .section-three .services-content .row div.services-card{
+        height: auto;
+    }
+    .section-three .services-content .row div.services-card p {
+        font-size: 0.8rem;
+        line-height: 19.54px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .agile-header{
+        height: auto;
+    }
+    .section-one{
+        height: auto;
+        text-align: center;
+    }
+    .section-one .col-12:nth-child(1){
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .section-one .col-12:nth-child(2){
+        padding-top: 0;
+        padding-bottom: 100px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .section-one h1{
+        line-height: 2rem;
+    }
+    .section-one p{
+        font-size: 0.8rem;
+        line-height: 1.7 !important;
+    }
+    .theme-heading{
+        font-size: 1.5rem;
+    }
+    .agile-header:not(.mobile) ul {
+        display: none !important;
+    }
+    .agile-header:not(.mobile) > a {
+        display: block !important;
+        height: 45px;
+        width: 45px;
+        color: #fff;
+        left: 20px;
+    }
+    
+    .agile-header:not(.mobile) > a:hover,
+    .agile-header:not(.mobile) > a:active,
+    .agile-header:not(.mobile) > a:focus {
+        border:1px solid;
+    }
+    
+    .agile-header:not(.mobile) header > a:nth-child(1){
+        margin-bottom: 0 !important;
+    }
+    .agile-header.mobile.no-opac{
+        opacity: 1;
+    }
+    .agile-header.mobile.active{
+        transform: translateX(0);
+    }
+    .mobile.agile-header.active:after{
+        opacity: 1;
+        z-index: 1;
+        transform:translateX(0);
+    }
+    .agile-header.mobile{
+        display: flex !important;
+        opacity: 0;
+        transition: transform 0.5s ease;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        transform:translateX(-100%);
+    }
+    .mobile.agile-header:after {
+        content: "";
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #00000045;
+        right: -100%;
+        top: 0;
+        opacity: 0;
+        z-index: -1;
+        transition: opacity 0.5s ease 0.3s;
+        transform:translateX(-100%);
+    }
+    .agile-header.mobile header{
+        margin:0;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+        justify-content: unset !important;
+    }
+    .agile-header.mobile header > a:nth-child(1){
+        padding-top: 3rem!important;
+        padding-bottom: 3rem!important;
+        
+    }
+    .agile-header.mobile header > a:nth-child(3){
+        bottom: 30px;
+    }
+    .agile-header.mobile header ul{
+        flex-direction: column;
+    }
+    .agile-header.mobile header ul li.nav-item {
+        margin: 5px 0;
+    }
+    .agile-header.mobile > button {
+        display: none;
+        top: 20px;
+        right: -90%;
+        z-index: 2;
+    }
+    .agile-header.mobile.active > button {
+        display: block;
+    }
+    .why-choose-us-main-container h1{
+        line-height: 1.5;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .agile-header.mobile{
+        width: 70%;
+    }
+    .mobile.agile-header:after {
+        width: 50%;
+        right: -50%;
+    }
+    .agile-header.mobile > button {
+        top: 20px;
+        right: -40%;
+    }
+}

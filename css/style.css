@@ -1,0 +1,331 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('../fonts/Montserrat/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family: Montserrat-Semi-Bold;
+    src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: Montserrat-Extra-Bold;
+    src: url('../fonts/Montserrat/Montserrat-ExtraBold.ttf');
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url('../fonts/Montserrat/Montserrat-Light.ttf');
+}
+@font-face {
+    font-family: Montserrat-Italic;
+    src: url('../fonts/Montserrat/Montserrat-Italic.ttf');
+}
+:root{
+    --bg-white:#FFFFFF;
+    --bg-off-white:#E5E5E5;
+    --bg-orange-dark:#EE6A46;
+    --bg-orange-light:#F3D8D5;
+    --bg-orange-light2:#FFF3F1;
+    --bg-brown-dark:#DC7000;
+    --bg-brown-light:#FFF3E9;
+    --bg-blue-light:#F0F7FF;
+    --bg-gray-dark:#4F4F4F;
+    --bg-gray-semi-dark:#F5F5F5;
+    --bg-gray-medium:#828282;
+    --bg-gray-normal:#C4C4C4;
+    --bg-gray-light:#F3F3F3;
+    --bg-green:#00D289;
+    --text-heading-light:#ffffff;
+    --text-heading:#000000;
+    --text-orange:#DC7000;
+    --text-sub-heading:#1D3547;
+    --text-gray:#525252;
+    --text-green:#00DC72;
+    --text-red:#DC1A00;
+    --text-purple:#B000DC;
+    --border-red:#F05F6B;
+    --border-blue:#0F69C9;
+    --border-orange:#F48F38;
+}
+* {
+    font-family: Montserrat;
+}
+.border-red{
+    border-color:var(--border-red) !important;
+}
+.border-blue{
+    border-color:var(--border-blue) !important;
+}
+.border-orange{
+    border-color:var(--border-orange) !important;
+}
+.bg-white{
+    background-color: var(--bg-white);
+}
+.bg-off-white{
+    background-color: var(--bg-off-white);
+}
+.bg-orange-dark{
+    background-color: var(--bg-orange-dark);
+}
+.bg-orange-light{
+    background-color: var(--bg-orange-light);
+}
+.bg-brown-dark{
+    background-color: var(--bg-brown-dark);
+}
+.bg-brown-light{
+    background-color: var(--bg-brown-light);
+}
+.bg-blue-light{
+    background-color: var(--bg-blue-light);
+}
+.bg-orange-light2{
+    background-color: var(--bg-orange-light2);
+}
+.bg-gray-dark{
+    background-color: var(--bg-gray-dark);
+}
+.bg-gray-semi-dark{
+    background-color: var(--bg-gray-semi-dark);
+}
+.bg-gray-medium{
+    background-color: var(--bg-gray-medium);
+}
+.bg-gray-normal{
+    background-color: var(--bg-gray-normal);
+}
+.bg-gray-light{
+    background-color: var(--bg-gray-light);
+}
+.text-white{
+    color:var(--text-heading-light);
+}
+.text-heading{
+    color:var(--text-heading);
+}
+.text-orange{
+    color:var(--text-orange)
+}
+.text-sub-heading{
+    color:var(--text-sub-heading);
+}
+.text-gray{
+    color:var(--text-gray);
+}
+.text-green{
+    color:var(--text-green);
+}
+.text-red{
+    color:var(--text-red);
+}
+.text-purple{
+    color:var(--text-purple);
+}
+
+.bottom-line{
+    width: 267px;
+    height: 8px;
+    border-radius: 4px;
+}
+.agile-header{
+    background-color: var(--bg-orange-dark);
+    height: 10vh;
+}
+.agile-header:not(.mobile) > a{
+    display: none;
+}
+.agile-header.mobile{
+    display: none !important;
+}
+.custom-container{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.agile-header header{
+}
+.agile-header ul li a{
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+.agile-header .agile-logo{
+    font-family: Montserrat-Extra-Bold;
+}
+
+
+/**section-one**/
+.theme-heading{
+    font-family: Montserrat-Bold;
+    font-size: 3.1rem;
+}
+.theme-secondary-heading {
+    font-family: Montserrat-Bold;
+    font-size: 1.9rem;
+}
+.theme-mini-heading {
+    font-family: Montserrat-Medium;
+    font-size: 1.3rem;
+}
+.theme-medium{
+    font-family: Montserrat-Medium;
+}
+.theme-semi-bold{
+    font-family: Montserrat-Semi-Bold;
+}
+
+.section-one{
+    height: 90vh;
+}
+.section-one svg{
+    width: 100%;
+    height:100%;
+}
+.section-one h1{
+    line-height: 4.5rem;
+}
+/**section-one**/
+
+/**section-two**/
+.section-two{
+
+}
+.section-two .benefits-main-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/**section-two**/
+
+/**section-last**/
+.section-last{
+
+}
+.section-last .footer-main-container p{
+    font-family: Montserrat;
+    font-size: 1.3rem;
+}
+.section-last .footer-main-container > a{
+    font-size: 0.9rem;
+    font-family: 'Montserrat-Bold';
+}
+.section-last .footer-main-container{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+/**section-last**/
+
+/**section-three**/
+.section-three{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.section-three .services-main-container{
+    padding-bottom: 100px;
+}
+.section-three .services-content .row div.services-card .text-heading{
+    font-size: 1rem;
+}
+.section-three .services-content .row div.services-card img{
+    
+}
+.section-three .services-content .row div.services-card p{
+    font-size: 0.7rem;
+    line-height: 19.54px;
+}
+.section-three .services-content .row div.services-card{
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 25px;
+    padding: 30px;
+    height: 250px;
+}
+.section-three .services-content .row div.services-card:hover{
+    background-color: var(--bg-white);
+    box-shadow: 0px 2.97701px 69.9598px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+
+/**section-three**/
+
+/**section-four**/
+.section-four{
+    padding-bottom: 100px;
+}
+.section-four .how-it-works-main-container{
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.section-four .how-it-works-main-container p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.section-four .how-it-works-steps-container  div > p{
+    font-size: 0.625rem;
+}
+.section-four .how-it-works-steps-container div > h3{
+    font-family: 'Montserrat-Bold';
+    font-size: 0.625rem;
+}
+.section-four .how-it-works-steps-container div.step-content{
+    padding-left: 35px;
+}
+.section-four .how-it-works-images-sctions{
+    
+}
+.section-four .how-it-works-images-sctions > .image-1{
+    background-image: url("./../images/section4-pic1.png");
+}
+.section-four .how-it-works-images-sctions > .image-2{
+    background-image: url("./../images/section4-pic2.png");
+}
+.section-four .how-it-works-images-sctions > .image-3{
+    background-image: url("./../images/section4-pic3.png");
+}
+.section-four .how-it-works-images-sctions > .image-4{
+    background-image: url("./../images/section4-pic4.png");
+}
+.section-four .how-it-works-images-sctions > div{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 185px;
+}
+/**section-four**/
+/**section-five**/
+.section-five{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.section-five .why-choose-us-main-container{
+    padding-bottom: 100px;
+}
+.section-five .why-choose-us-content .row div.why-choose-us-card .text-heading{
+    font-size: 1.3rem;
+}
+.section-five .why-choose-us-content .row div.why-choose-us-card img{
+    border-radius: 50%;
+    background: var(--bg-green);
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
+.section-five .why-choose-us-content .row div.why-choose-us-card{
+    height: 180px;
+    border-radius: 0px 15px 15px 0px;
+    border-left: 5px solid;
+    margin-bottom: 25px;
+    padding: 22px 0;
+}
+
+
+/**section-five**/
